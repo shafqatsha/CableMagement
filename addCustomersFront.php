@@ -88,12 +88,12 @@ $areaResutl = $user->selectAllArea();
             <input type="number" name="mobileNumber2" class="form-control" id="inputEmail4" placeholder="e,g 0300xxxxxxx">
           </div>
           <div class="form-group col-md-3">
-            <label for="inputEmail4">Total Payment</label>
-            <input type="number" name="totalPayment" class="form-control" id="inputEmail4" required placeholder="for example 250">
+            <label for="inputEmail4">Connection Fees</label>
+            <input type="number" name="totalPayment" class="form-control" id="inputEmail4" required >
           </div>
           <div class="form-group col-md-3">
-            <label for="inputPassword4">Recived Payment</label>
-            <input type="number" name="recivedPayment" class="form-control" id="inputPassword4" required placeholder="for example 250">
+            <label for="inputPassword4">Recived Fees</label>
+            <input type="number" name="recivedPayment" class="form-control" id="inputPassword4" required >
           </div>
         </div>
         <div class=" form-row ">
@@ -146,7 +146,7 @@ $areaResutl = $user->selectAllArea();
           </div>
           <div class="form-group col-md-4">
             <label for="inputArea">If Area Not In List Type Below</label>
-            <input type="text" name="notInTheList" class="form-control" id="inputArea" placeholder="Optional">
+            <input type="text" name="notInTheList" class="form-control" id="inputArea" >
           </div>
           <div class="form-group col-md-2">
             <label for="inputZip">Status</label>
