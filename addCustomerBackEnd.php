@@ -26,6 +26,8 @@ if ($_POST) {
             $user->area = $_POST['area'];
         } else {
             $user->area = $_POST['notInTheList'];
+              // add area into area Table
+                 $user->addArea($user->area);
         }
         $user->city = $_POST['city'];
         $user->status = $_POST['status'];
@@ -41,8 +43,8 @@ if ($_POST) {
             if ($user->create()) {
                 $_SESSION['RecordCreated'] = "Success";
                 // INSERT Record into customer Detail Table
-                $user->addArea($user->area);
-                // add area into area Table
+               
+              
                 $customer_id = $user->getLastInsertedResult();
                 if (!empty($customer_id)) {
                     foreach ($customer_id as $ID) {
