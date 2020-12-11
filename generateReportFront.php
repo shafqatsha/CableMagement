@@ -148,7 +148,7 @@ if (isset($_POST["generateReportForm"])) {
                         <th>Fee Paid</th>
                         <th>Fee Payable</th>
                         <th>Arrears</th>
-                        <th>For The Month</th>
+                        <th>Dated</th>
                     </tr>
                 </thead>
                 <tbody>
