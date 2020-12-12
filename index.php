@@ -121,7 +121,7 @@ if (isset($_POST['searchCustomerForm'])) {
           <a class="nav-link btn-primary " href="Index.php?name=Paid">Paid</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn-primary  " href="Index.php?name=Arrears">Payable</a>
+          <a class="nav-link btn-primary  " href="Index.php?name=Arrears">Arrears</a>
         </li>
         <li class="nav-item">
           <a class="nav-link btn-primary  " href="Index.php?name=Deactive">Deactive</a>
@@ -166,7 +166,7 @@ if (isset($_POST['searchCustomerForm'])) {
 
               </th>
             <?php } else if (isset($_GET['name']) && $_GET['name'] == 'DESC') { ?>
-              <th scope="col"><a href="Index.php?name=<?php echo $sort ?>">Payable<svg class="bi" width="18" height="20" fill="currentColor">
+              <th scope="col"><a href="Index.php?name=<?php echo $sort ?>">Arrears<svg class="bi" width="18" height="20" fill="currentColor">
                     <use xlink:href="node_modules/bootstrapIcons/bootstrap-icons.svg#arrow-down-short" />
                   </svg></a>
 
@@ -174,7 +174,7 @@ if (isset($_POST['searchCustomerForm'])) {
             <?php } else { ?>
               <th scope="col"> <a href="Index.php?name=<?php echo $sort ?>"><svg class="bi" width="18" height="20" fill="currentColor">
                     <use xlink:href="node_modules/bootstrapIcons/bootstrap-icons.svg#arrow-down-short" />
-                  </svg>Payable<svg class="bi" width="18" height="20" fill="currentColor">
+                  </svg>Arrears<svg class="bi" width="18" height="20" fill="currentColor">
                     <use xlink:href="node_modules/bootstrapIcons/bootstrap-icons.svg#arrow-up-short" />
                   </svg></a>
 
