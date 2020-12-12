@@ -113,11 +113,11 @@ include_once 'object/Customer.php';
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-5">
-                                <label for="inputEmail4">Total Fee</label>
+                                <label for="inputEmail4">Monthly Fee</label>
                                 <input type="number" name="totalFee" class="form-control" id="inputEmail4" required>
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputPassword4">Paid Fee</label>
+                                <label for="inputPassword4">Paid</label>
                                 <input type="number" name="paidFee" class="form-control" id="inputPassword4" required>
                             </div>
                             <div class="form-group col-md-3">
@@ -129,7 +129,7 @@ include_once 'object/Customer.php';
                         <div class=" form-row ">
 
                             <div class="form-group col-md-6">
-                                <label for="inputAddress2">Paid Date</label>
+                                <label for="inputAddress2">Fees Updated</label>
                                 <input type="date" name="paidDate" class="form-control" id="inputAddress2" required>
                             </div>
 
